@@ -1,2 +1,2 @@
 # Techplement
-Repository for Techplement Java Developer Internship [June-July2]
+Repository for Techplement Java Developer Internship [June24-July24]
