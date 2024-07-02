@@ -1,1 +1,27 @@
-****
+Documentation of the Main.java program
+------------------------------------------------------------------------------
+
+
+The program is a Quiz Application/Program in Java
+I've created a nested class that represents a question in quiz. It contains;
+'String text' : The text of the question
+'List<String> choices' : A list of possible answer choices.
+'int correctChoiceIndex' : The index of correct choices in the list of choices.
+
+Quiz: 
+A nested static class that represents a quiz. It contains: 
+'String name' : The name of the quiz.
+'List<Question> questions' : A list of questions in the quiz.
+
+I have used the data structure array<list> in java to store the questions and answers for a quiz.
+
+I have explained the major and important classes in the application below: 
+
+The class SimpleQuizApp is the main class of the application. It contains the main method and logic to handle user queries.
+The Quiz Class: It represents the quiz with a name and list of questions. 
+Main List and Scanner: Initializes the list of quizzes and scanner for user input.
+Main Method: Starts the application.
+createQuiz Method: Allows the user to create a new quiz.
+addQuestionMethod: Allows the user to add questions to an existing quiz.
+takeQuizMethod: Allows the user to take a quiz and displays the score.
+findQuizMethod: It's a helper method to find a quiz by its name. 
